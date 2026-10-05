@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>JavaScript Dates</h1>
+<h2>Using new Date()</h2>
+<p>new Date() without arguments, creates a date object with the current date and time:</p>
+
+<p id="demo"></p>
+
+
+
+<!-- Type               	Example
+     ISO Date	           "2015-03-25" (The International Standard)
+     Short Date	         "03/25/2015"
+     Long Date          	"Mar 25 2015" or "25 Mar 2015" -->
+
+<script>
+const date = new Date();
+document.getElementById("demo").innerHTML = date;
+
+
+
+
+
+//here we give date 
+const d = new Date("2015-03-25");
+document.getElementById("demo").innerHTML = d;
+</script>
+
+</body>
+</html>

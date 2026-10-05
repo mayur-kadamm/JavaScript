@@ -1,0 +1,67 @@
+==========Dates========
+
+The new Date() Constructor
+In JavaScript, date objects are created with new Date().
+
+new Date() returns a date object with the current date and time.
+
+| **Method**          | **Description**                                    |
+| ------------------- | -------------------------------------------------- |
+| `getFullYear()`     | Get **year** as a four-digit number (yyyy)         |
+| `getMonth()`        | Get **month** as a number (0–11)                   |
+| `getDate()`         | Get **day of the month** as a number (1–31)        |
+| `getDay()`          | Get **weekday** as a number (0–6)                  |
+| `getHours()`        | Get **hour** (0–23)                                |
+| `getMinutes()`      | Get **minute** (0–59)                              |
+| `getSeconds()`      | Get **second** (0–59)                              |
+| `getMilliseconds()` | Get **millisecond** (0–999)                        |
+| `getTime()`         | Get **time** in milliseconds since January 1, 1970 |
+
+
+
+=========here we can set date==========
+| **Method**          | **Description**                                        |
+| ------------------- | ------------------------------------------------------ |
+| `setDate()`         | Set the **day** as a number (1–31)                     |
+| `setFullYear()`     | Set the **year** (yyyy)                                |
+| `setHours()`        | Set the **hour** (0–23)                                |
+| `setMilliseconds()` | Set the **milliseconds** (0–999)                       |
+| `setMinutes()`      | Set the **minutes** (0–59)                             |
+| `setMonth()`        | Set the **month** (0–11)                               |
+| `setSeconds()`      | Set the **seconds** (0–59)                             |
+| `setTime()`         | Set the **time** in milliseconds since January 1, 1970 |
+
+
+
+
+=========here all dates methods========
+| **Method**             | **Description**                                                    |
+| ---------------------- | ------------------------------------------------------------------ |
+| `new Date()`           | Creates a new **Date object**                                      |
+| `getFullYear()`        | Gets the **year** (yyyy)                                           |
+| `getMonth()`           | Gets the **month** (0–11)                                          |
+| `getDate()`            | Gets the **day of the month** (1–31)                               |
+| `getDay()`             | Gets the **day of the week** (0–6)                                 |
+| `getHours()`           | Gets the **hour** (0–23)                                           |
+| `getMinutes()`         | Gets the **minutes** (0–59)                                        |
+| `getSeconds()`         | Gets the **seconds** (0–59)                                        |
+| `getMilliseconds()`    | Gets the **milliseconds** (0–999)                                  |
+| `getTime()`            | Gets time in **milliseconds since January 1, 1970**                |
+| `getTimezoneOffset()`  | Gets the difference between **UTC and local time** in minutes      |
+| `Date.now()`           | Gets the current time in **milliseconds since January 1, 1970**    |
+| `Date.parse()`         | Converts a date string into **milliseconds since January 1, 1970** |
+| `setFullYear()`        | Sets the **year**                                                  |
+| `setMonth()`           | Sets the **month** (0–11)                                          |
+| `setDate()`            | Sets the **day of the month** (1–31)                               |
+| `setHours()`           | Sets the **hour** (0–23)                                           |
+| `setMinutes()`         | Sets the **minutes** (0–59)                                        |
+| `setSeconds()`         | Sets the **seconds** (0–59)                                        |
+| `setMilliseconds()`    | Sets the **milliseconds** (0–999)                                  |
+| `setTime()`            | Sets the date using **milliseconds since January 1, 1970**         |
+| `toDateString()`       | Converts the date into a **readable date string**                  |
+| `toTimeString()`       | Converts the time into a **readable time string**                  |
+| `toISOString()`        | Converts the date into an **ISO format string**                    |
+| `toLocaleDateString()` | Returns the date in **local format**                               |
+| `toLocaleTimeString()` | Returns the time in **local format**                               |
+| `toLocaleString()`     | Returns date and time in **local format**                          |
+| `toString()`           | Converts the Date object into a **string**                         |
